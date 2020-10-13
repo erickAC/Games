@@ -1,0 +1,106 @@
+*{
+    font-family:  Poppins;
+
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: #0D0D0D;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+    border-bottom: 2px solid transparent;
+    margin-right: 5px;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+   border-radius: 30px;
+   background:white;
+   color: #730A1D;
+}
+
+.fundo {
+    /*background: url('img/1.jpg');*/
+
+}
+
+.fundo button{
+    border-radius: 30px;
+    background-color: #730A1D;
+    color: white;
+}
+
+.fundo button:hover{
+    border-radius: 30px;
+    background-color: white;
+    color: #730A1D;
+    border: 1px solid #730A1D;
+}
+
+.jogo1{
+    border-radius: 30px;
+}
+
+.fundo2{
+    background: linear-gradient(45deg, #252525, #af0404 , #414141 );
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.fundo2 button{
+    border-radius: 30px;
+    background-color: #730A1D;
+    color: white;
+}
+
+.fundo2 button:hover{
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #730A1D;
+}
+
+.contato h2{
+    border-bottom: 5px solid #730A1D;
+    display: inline;
+}
+
+.contato button{
+    border-radius: 30px;
+    background-color: #730A1D;
+    color: white;
+}
+
+.contato button:hover{
+    border-radius: 30px;
+    background-color: white ;
+    color: #730A1D;
+    border: 1px solid #730A1D;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+@media screen and (min-width: 812px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        text-align: center;
+    }
+}
